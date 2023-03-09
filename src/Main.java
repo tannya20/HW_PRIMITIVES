@@ -8,16 +8,16 @@ public class Main {
         int rubles = 20;
 
         int miles;
-        if(1>0) {
+        if (1 > 0) {
             miles = 1;
         } else {
             miles = 0;
         }
 
-       // int  miles = (1>0) ? 1 : 0;
+        // int  miles = (1>0) ? 1 : 0;
 
         int result = price / 20 * miles;
-        System.out.println( "Стоимость билета: "  + price + "\nВаш бонус составляет: " + result);
+        System.out.println("Стоимость билета: " + price + "\nВаш бонус составляет: " + result);
 
     }
 }
