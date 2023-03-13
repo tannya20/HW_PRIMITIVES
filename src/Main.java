@@ -7,12 +7,7 @@ public class Main {
         int price = 13676;
         int rubles = 20;
 
-        int miles;
-        if (1 > 0) {
-            miles = 1;
-        } else {
-            miles = 0;
-        }
+        int miles = 1;
 
         // int  miles = (1>0) ? 1 : 0;
 
